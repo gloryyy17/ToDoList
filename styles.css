@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #c9a9c1; /* Updated background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50h;
+  }
+  
+  .container {
+    background: #a87ca4;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 600px; /* Made working area larger */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 75px; /* Increased font size */
+    color: #291533; /* Updated heading color */
+    margin-bottom: 20px;
+  }
+  
+  .quote-section {
+    margin-bottom: 20px;
+    font-size: 20px; /* Increased font size */
+    color: #582762;
+    font-style: italic;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px; /* Added spacing */
+  }
+  
+  input {
+    padding: 2px; /* Increased padding */
+    border: 1px solid #cccccc;
+    border-radius: 8px; /* Rounded edges */
+    font-size: 28px; /* Increased font size */
+  }
+  
+  button {
+    padding: 14px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 8px; /* Rounded edges */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin:  0;
+  }
+  
+  li {
+    padding: 4px; /* Increased padding */
+    margin-bottom: 12px;
+    font-size: 18px; /* Increased font size */
+    background: #f9f9f9;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #352230;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 2px; /* Increased padding */
+    font-size: 16px; /* Increased font size */
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d11a2a;
+  }
+  
+  canvas {
+    margin-top: 30px;
+  }
+  
